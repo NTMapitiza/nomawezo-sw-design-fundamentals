@@ -1,5 +1,6 @@
 package com.example.fizzbuzz;
 
+// class name
 public class fizzBuzz {
 
 	public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class fizzBuzz {
 
 	public void go() {
 		for (int i = 1; i <= 100; i++) {
+            
+            // variable name
 			boolean yes = false;
 			if (i % 3 == 0) {
 				System.out.print("Fizz");
@@ -25,7 +28,7 @@ public class fizzBuzz {
 			
 			if (!yes) {
 				System.out.println(i);
-			}else {
+			}else {  // one character of whitespace before else
 				System.out.println();
 			}
 		}
